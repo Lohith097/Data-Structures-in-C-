@@ -25,7 +25,6 @@ int main() {
     int row, col, newValue;
     cout << "Enter row, column to modify, and new value: ";
     cin >> row >> col >> newValue;
-    cin >> row >> col >> newValue;
     if (row >= 0 && row < m && col >= 0 && col < n) {
         arr2[row][col] = newValue;
     } else {
