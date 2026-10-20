@@ -20,7 +20,12 @@ int main() {
     int index, newValue;
     cout << "Enter index to modify and new value: ";
     cin >> index >> newValue;
-    arr1[index] = newValue;
+    cin >> index >> newValue;
+    if (index >= 0 && index < n) {
+        arr1[index] = newValue;
+    } else {
+        cout << "Invalid index!\n";
+    }
     
     cout << "Updated Array:\n";
     for(int i = 0; i < n; i++) {
