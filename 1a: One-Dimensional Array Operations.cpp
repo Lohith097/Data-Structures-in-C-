@@ -20,7 +20,6 @@ int main() {
     int index, newValue;
     cout << "Enter index to modify and new value: ";
     cin >> index >> newValue;
-    cin >> index >> newValue;
     if (index >= 0 && index < n) {
         arr1[index] = newValue;
     } else {
